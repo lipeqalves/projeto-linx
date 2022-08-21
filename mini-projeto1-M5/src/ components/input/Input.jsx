@@ -1,7 +1,8 @@
+import "./styles.css"
 export const Input = (props) => {
   return (
-    <label>
-      {props.name}:
+    <label className="input">
+      {props.name}
       <input type={props.type} />
     </label>
   );

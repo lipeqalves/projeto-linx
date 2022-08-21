@@ -3,6 +3,9 @@ import "./styles.css"
 
 export const Header = () => {
   return (
+    <div className="hedder-conteinr">
+
+    
     <div className="header">
       <p className="p-One">uma seleção de produtos</p>
       <h1>especial para você</h1>
@@ -17,6 +20,7 @@ export const Header = () => {
       <Button name="Seus produtos" />
       <Button name="Compartilhe" />
       </div>
+    </div>
     </div>
   );
 };

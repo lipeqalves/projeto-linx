@@ -1,7 +1,7 @@
 import "./styles.css";
 export const Line = (props) => {
   return (
-    <fieldset class="Produtos">
+    <fieldset >
     <legend>{props.name}</legend>
     </fieldset>
   )

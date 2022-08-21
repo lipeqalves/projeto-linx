@@ -1,6 +1,7 @@
+import "./styles.css"
 export const CardText = () => {
   return (
-    <div>
+    <div className="text">
       <h1>Ajude o algorítimo a ser mais certeiro</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
