@@ -1,7 +1,21 @@
-.pegeOne{
+.pegeOne {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8em;
+}
+
+.produtos {
+  display: flex;
+  align-items: center;
+  /*border: 2px solid #000;*/
+  flex-wrap: wrap;
+}
+.bnt{
+    /*border: 2px solid #000;*/
     width: 100%;
     display: flex;
-    align-items:center;
-    justify-content:space-between;
-    padding: 8em;
+    justify-content: center;
+    padding: 1em;
 }

@@ -1,70 +1,61 @@
-.select{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 3em;
-    margin-bottom: 2em;
+.card{
+    width: 25%;
+   /* border: 2px solid #000;*/
+    padding: 1em;
+}
+.name {
+  text-align: left;
+  font: normal normal normal 14px/16px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+  margin-bottom: 0.5em;
 }
 
-.card {
-  width: 10em;
-  display: flex;
-  flex-direction: column;
-  
-  margin-bottom: 1em;
+.desc {
+  text-align: left;
+  font: normal normal normal 12px/16px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+  margin-bottom: 0.5em;
 }
-.name{
-    text-align: left;
-font: normal normal normal 14px/16px Helvetica Neue;
-letter-spacing: 0px;
-color: #888888;
-opacity: 1;
-margin-bottom: .5em;
-}
-
-.desc{
-text-align: left;
-font: normal normal normal 12px/16px Helvetica Neue;
-letter-spacing: 0px;
-color: #888888;
-opacity: 1;
-margin-bottom: .5em;
-}
-.old{
-    text-align: left;
-font: normal normal normal 12px/16px Helvetica Neue;
-letter-spacing: 0px;
-color: #888888;
-opacity: 1;
-margin-bottom: .5em;
+.old {
+  text-align: left;
+  font: normal normal normal 12px/16px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+  margin-bottom: 0.5em;
 }
 .price {
-    text-align: left;
-    font: normal normal bold 16px/16px Helvetica Neue;
-    letter-spacing: 0px;
-    color: #888888;
-    opacity: 1;
-    margin-bottom: .5em;
+  text-align: left;
+  font: normal normal bold 16px/16px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+  margin-bottom: 0.5em;
 }
-.cartao{
-    text-align: left;
-font: normal normal normal 12px/16px Helvetica Neue;
-letter-spacing: 0px;
-color: #888888;
-opacity: 1;
-margin-bottom: .5em;
+.cartao {
+  text-align: left;
+  font: normal normal normal 12px/16px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+  margin-bottom: 0.5em;
 }
 
-.select button {
-    width: 15em;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    border-radius: 4px;
-    opacity: 1;
+button {
+  width: 15em;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  opacity: 1;
+  align-items: center;
 
-text-align: center;
-font: normal normal normal 16px/16px Helvetica Neue;
-letter-spacing: 0px;
-color: #888888;
-opacity: 1;
+  text-align: center;
+  font: normal normal normal 16px/16px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
 }
