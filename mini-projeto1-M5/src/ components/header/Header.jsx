@@ -1,7 +1,7 @@
 import { Button } from "../Button";
 import "./styles.css"
 
-export const Header = () => {
+export const Header = (props) => {
   return (
     <div className="hedder-conteinr">
 
@@ -15,7 +15,9 @@ export const Header = () => {
       </p>
       <div className="header-buttons">
 
-      <Button name="Conheça a Linx" />
+      <Button name="Conheça a Linx" onClick={
+        props.home}
+      />
       <Button name="Ajude o algorítimo" />
       <Button name="Seus produtos" />
       <Button name="Compartilhe" />

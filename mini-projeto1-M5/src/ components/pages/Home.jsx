@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from 'react-router-dom'
 import { Forms } from "../formRegistration/ FormRegistration";
 import { CardText } from "../cardText/CardText";
 import { Header } from "../header/Header";
@@ -9,6 +10,8 @@ import { Card } from "../card/Card";
 import { Button } from "../Button";
 import "./styles.css";
 import { buscaItem } from "../../service/requisicao.js";
+
+
 
 function Home() {
   const [produto, setProduto] = useState([]);
@@ -25,7 +28,7 @@ function Home() {
   useEffect(() => {
     newPage("frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1");
   }, []);
-
+   
   return (
     <div className="App">
       <Header />

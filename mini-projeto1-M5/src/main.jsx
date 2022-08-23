@@ -2,7 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from './ components/pages/Home'
-import Novidade from './ components/pages/Compartilhe'
+import Compartilhe from './ components/pages/Compartilhe'
+
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -10,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/novidade" element={<Novidade />} />
+        <Route path="/compartilhe" element={<Compartilhe />} />
       </Routes>
     </BrowserRouter>
     
